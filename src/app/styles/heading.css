@@ -1,0 +1,40 @@
+.head-container{
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+}
+.head-title{
+    margin: 0;
+    border-bottom: 4px solid #ffffff;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+@media (max-width: 1024px) {
+    .head-container{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .head-title{
+        font-size: 1.8rem;
+}
+}
+@media (max-width: 768px) {
+    .head-container{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .head-title{
+        font-size: 1.2rem;
+}
+}
+@media (max-width: 480px) {
+    .head-container{
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+    }
+    .head-title{
+        font-size: 1rem;
+}
+}
